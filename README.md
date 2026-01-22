@@ -1,8 +1,12 @@
-# FO² Model Theory Playground
+# FO² Model Theory Presentation Files
 
-This project empirically investigates the 0-1 law for First-Order Logic with two variables (FO²) by testing satisfiability rates of formulas across different domain sizes using both exhaustive search and Monte Carlo sampling.
+This project contains implementations for a satisfiability checker and model explorer for the binary fragment of First-Order Logic(FO²), where formulas are restricted to at most two distinct variables. The code in this project was usedf to deliver a presentation on the decideability of FO2 to the Australasian Seminar in Logic. For a nicer exposition of the ideas implemented here, ind the presentation here: https://docs.google.com/presentation/d/1SAHjaGzuCCPHUVZiZ7IF5opHbTyGHZb0F1T9v4tCk3E/edit?slide=id.g36f1f4ad801_0_11988#slide=id.g36f1f4ad801_0_11988
+
+
 
 ## File Overview
+
+Files overview generated with Claude in Cursor:
 
 ### `formula.py`
 **Goal**: Define the abstract syntax tree for FO² formulas.
